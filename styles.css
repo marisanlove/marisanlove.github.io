@@ -1,0 +1,46 @@
+.text_style{
+  color:linen;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  font-family: system-ui;
+  border-block:2px dotted;
+}
+
+.heading1 {
+  color:linen;
+  font-family: fantasy;
+  word-spacing: 10px;
+  letter-spacing: 3px;
+  margin:5%;
+  padding-left: 6%;
+}
+
+.heading2 {
+  font-family: fantasy;
+  color: linen;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding-top: 4%;
+}
+
+
+  body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
